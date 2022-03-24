@@ -1,0 +1,39 @@
+body {
+    background-color: #F4F0E5;
+    font-family: tahoma;
+    text-align: center;
+}
+
+.logo img {
+    width: 270px;
+}
+
+.logo a {
+    margin: 0 15px;
+    color: #554633;
+    font-size: 22px;
+}
+
+.sub-titulo {
+    color: #DE8E37;
+    font-size: 25px;
+    font-weight: normal;
+    margin: 20px auto;
+}
+
+.conteudo {
+    border-top: 3px solid #DE8E37;
+    margin-top: 50px;
+}
+
+.produtos {
+    background-color: #DE8E37;
+    margin: 25px auto;
+    color: white;
+    width: 57.5%;
+}
+
+.produtos img {
+
+    width: 60%;
+}
