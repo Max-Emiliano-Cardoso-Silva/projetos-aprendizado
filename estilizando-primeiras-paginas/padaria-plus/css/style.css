@@ -5,35 +5,76 @@ body {
 }
 
 .logo img {
-    width: 270px;
+    width: 200px;
 }
 
-.logo a {
-    margin: 0 15px;
+a {
+    margin: 30px 15px 40px 15px;
     color: #554633;
     font-size: 22px;
+
+}
+
+.logo {
+    border-bottom: 2px solid #DE8E37;
+    margin: 2px 21% 40px 21%;
+}
+
+
+.conteudo {
+    width: 100%;
+}
+
+h1{
+    font-size: 28px;
+    
 }
 
 .sub-titulo {
     color: #DE8E37;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: normal;
-    margin: 20px auto;
 }
 
-.conteudo {
-    border-top: 3px solid #DE8E37;
-    margin-top: 50px;
+.conteudo img {
+    width: 57.5%;
 }
 
 .produtos {
     background-color: #DE8E37;
-    margin: 25px auto;
+    margin: 15px auto;
     color: white;
     width: 57.5%;
+    padding: 15px 0 15px 0;
+}
+
+.produtos h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.produtos p {
+    font-size: 18px;
+    line-height: 30px;
+    width: 80%;
+    margin: 0 auto 15px auto;
 }
 
 .produtos img {
 
     width: 60%;
+}
+
+
+.contato p {
+    font-size: 18px;
+}
+
+span {
+    font-weight: bold;
 }
