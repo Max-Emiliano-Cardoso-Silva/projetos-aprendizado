@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+}
+
+div {
+    font-family: tahoma;
+    text-align: center;
+}
+
+.logo {
+    background-color: #B0DDFC;
+}
+
+.logo img {
+    width: 13%;
+}
+
+.logo p,
+.logo a {
+    padding: 0 1% 39px 1%;
+    font-size: 19px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.banner img {
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.conteudo h2 {
+    color: #519BBE;
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.conteudo img,
+.corretores img {
+    width: 35%;
+    margin-bottom: 25px;
+}
+
+.conteudo p,
+.corretores p,
+.contato p {
+    width: 69%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.conteudo span,
+.corretores span {
+    font-weight: bold;
+    color: #1D80C1;
+}
+
+.servico,
+.contato {
+    background-color: #1D80C1;
+    color: white;
+    padding: 40px 0 60px 0;
+    margin-top: 45px;
+}
+
+.sub-titulo {
+    font-size: 33px;
+    text-transform: uppercase;
+}
+
+.servico p {
+    font-size: 19px;
+    width: 40%;
+    margin: 0 auto;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+
+.servico span,
+.contato span {
+    color: yellow;
+    font-weight: bold;
+}
+
+.servico li {
+    font-size: 19px;
+    text-align: left;
+    width: 9%;
+    margin: 20px auto;
+}
+
+.corretores h3 {
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #1D80C1;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+
+
+.contato p {
+    margin-top: 25px;
+    background-color: black;
+    width: 65%;
+    padding: 15px;
+}
+
+
+.contato ul li {
+    background-color: white;
+    margin: 0 20px;
+    color: #1d80c1;
+    font-size: 19px;
+    padding: 9px;
+    border-radius: 10px;
+    display: inline-block;
+}
