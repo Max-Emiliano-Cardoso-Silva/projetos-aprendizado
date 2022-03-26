@@ -124,7 +124,7 @@ h1 {
 }
 
 .contato li{
-    margin-top: 15px;
+    margin-top: 15px auto;
     font-size: 18px;
 }
 
