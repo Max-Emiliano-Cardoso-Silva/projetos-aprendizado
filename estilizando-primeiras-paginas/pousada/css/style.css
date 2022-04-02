@@ -220,7 +220,6 @@ footer .copy {
 }
 
 .conteiners-quartos {
-    margin-top: 90px;
     padding: 40px;
 }
 
@@ -252,6 +251,7 @@ footer .copy {
 
 .conteiners-quartos .imagens-conteudo {
     text-align: center;
+    display: flex;
 }
 
 .conteiners-quartos .largura-lista {
