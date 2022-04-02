@@ -64,8 +64,7 @@ body {
     align-items: center;
     border: 2px solid #fff;
     border-radius: 8px;
-    background-color: #12A68E;
-    opacity: 0.8;
+    background-color: #0a9077b3;
     color: #fff;
 }
 
@@ -206,4 +205,67 @@ footer .copy {
     margin: 20px 0;
     text-align: center;
     font-weight: bold;
+}
+
+
+/*Pagina Quartos */
+
+.topo-img-fundo {
+    background-image: url('../img/img-fundo.jpg');
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+
+.conteiners-quartos {
+    margin-top: 90px;
+    padding: 40px;
+}
+
+.conteiners-quartos h2 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.conteiners-quartos h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.conteiners-quartos p {
+    text-align: center;
+    font-size: 20px;
+    margin: 40px 0 70px 0;
+}
+
+.conteiners-quartos .imagens-conteudo img {
+    width: 420px;
+    height: 270px;
+    padding: 0 5px;
+    object-fit: cover;
+}
+
+.conteiners-quartos .imagens-conteudo {
+    text-align: center;
+}
+
+.conteiners-quartos .largura-lista {
+    width: 800px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: disc;
+    padding: 15px 80px
+}
+
+.conteiners-quartos .largura-lista li {
+    font-size: 18px;
+    margin: 0 20px;
 }
