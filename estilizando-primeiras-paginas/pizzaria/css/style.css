@@ -1,7 +1,5 @@
 body {
-    background-color: #060606;
-    background-image: url(../img/background-pizza.jpg);
-    background-repeat: no-repeat;
+    background: url(../img/background-pizza.jpg) no-repeat #060606;
     background-size: contain;
     color: #fff;
     margin: 0;
