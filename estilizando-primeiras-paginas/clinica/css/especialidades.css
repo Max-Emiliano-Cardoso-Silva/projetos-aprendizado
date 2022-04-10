@@ -1,0 +1,80 @@
+.link-topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+
+.link-topo a {
+    margin: 0 10px;
+    padding: 2px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    border-bottom: 2px solid #00CAD1;
+    font-size: 18px;
+}
+
+.link-topo a:hover {
+    background-color: #00CAD1;
+    color: #fff;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+#ortopedia,
+#pediatria,
+#geriatria,
+#psicologia,
+#fisioterapia {
+    margin-top: 40px;
+}
+
+.container .h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container-conteudo .p {
+    margin: 20px;
+}
+
+.box-tabelas {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    max-height: 230px;
+}
+
+.box-tabelas img {
+    height: 230px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.box-tabelas table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.box-tabelas table th {
+    text-align: left;
+    background-color: #00CAD1;
+    color: #fff;
+    height: 40px;
+}
+
+.box-tabelas table th:first-of-type,
+.box-tabelas table td:first-of-type {
+    padding-left: 8px;
+}
+
+.box-tabelas table tr:nth-child(2n+1) {
+    background-color: #CDCDCD;
+}
+
+
+
