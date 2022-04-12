@@ -1,80 +1,97 @@
-.link-topo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: 20px auto;
-    flex-wrap: wrap;
-}
-
-.link-topo a {
-    margin: 0 10px;
-    padding: 2px;
-    text-decoration: none;
-    color: #333;
-    font-weight: 600;
-    border-bottom: 2px solid #00CAD1;
-    font-size: 18px;
-}
-
-.link-topo a:hover {
-    background-color: #00CAD1;
-    color: #fff;
-    border-radius: 3px;
-    transition: .5s;
-}
-
-#ortopedia,
-#pediatria,
-#geriatria,
-#psicologia,
-#fisioterapia {
+.sessao-especialidade {
     margin-top: 40px;
 }
 
-.container .h1 {
-    font-size: 28px;
+.container-titulo {
+    padding: 0 20px;
     text-align: center;
-    margin-top: 30px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.container-conteudo .p {
-    margin: 20px;
+.conteiner-links-especialidades {
+    padding: 0 20px;
+    text-align: center;
 }
 
-.box-tabelas {
+.links-especialidades {
     display: flex;
-    width: 100%;
-    justify-content: flex-start;
-    max-height: 230px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: center;
 }
 
-.box-tabelas img {
-    height: 230px;
-    width: 250px;
+.links-especialidades a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid #00cad1;
+    margin: 0 10px 10px;
+    font-size: 18px;
+}
+
+.links-especialidades a:hover {
+    color: #0d6e71;
+}
+
+.box-tabela-especialista {
+    display: flex;
+    height: 240px;
+    padding: 0 20px;
+}
+
+.box-tabela-especialista img {
+    width: 30%;
+    height: 100%;
     object-fit: cover;
 }
 
-.box-tabelas table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.box-tabelas table th {
+.tabela-especialistas {
+    border-spacing: 0;
     text-align: left;
-    background-color: #00CAD1;
+    width: 70%;
+    height: 100%;
+}
+
+.tabela-especialistas thead tr {
+    background-color: #00cad1;
     color: #fff;
-    height: 40px;
 }
 
-.box-tabelas table th:first-of-type,
-.box-tabelas table td:first-of-type {
-    padding-left: 8px;
+.tabela-especialistas tr {
+    background-color: #f1f1f1;
+    color: #585757;
+    font-weight: 500;
 }
 
-.box-tabelas table tr:nth-child(2n+1) {
-    background-color: #CDCDCD;
+.tabela-especialistas tbody tr:nth-of-type(2n+1) {
+    background-color: #cdcdcd;
+    border: 1px solid #f1f1f1;
+}
+
+.tabela-especialistas th,
+.tabela-especialistas td {
+    padding: 10px;
 }
 
 
-
+@media (max-width: 768px) {
+    .box-tabela-especialista img {
+      display: none;
+    }
+  
+    .tabela-especialistas {
+      width: 100%;
+    }
+  
+    .box-tabela-especialista {
+      height: auto;
+      justify-content: center;
+    }
+  }
+  
+  @media ( max-width: 425px) {
+    .box-tabela-especialista {
+      padding: 0;
+    }
+  }
