@@ -218,6 +218,13 @@ header {
     margin: 0 6px;
 }
 
+.oferta-imagem-destaque:hover,
+.oferta-quatro-imagens figure:hover,
+.natureza-imagem:hover {
+    transform: scale(1.02) translate(0, -5px);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.479);
+}
+
 .oferta-imagem-destaque img,
 .oferta-quatro-imagens img {
     object-fit: cover;
